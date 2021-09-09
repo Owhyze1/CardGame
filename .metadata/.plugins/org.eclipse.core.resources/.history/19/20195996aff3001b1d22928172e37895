@@ -1,0 +1,9 @@
+package com.cardgame.respository;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+import com.cardgame.model.PlayerModel;
+
+public interface PlayerRepository extends MongoRepository<PlayerModel, Integer> {
+
+}

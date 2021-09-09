@@ -1,0 +1,9 @@
+package com.cardgame.model;
+
+public class GameModel {
+	
+	private String playerName;
+	private int points;
+	
+	
+}

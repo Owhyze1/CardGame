@@ -1,0 +1,10 @@
+package com.cardgame.respository;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+import com.spring.cardgame.model.PlayerModel;
+
+public interface PlayerRepository extends MongoRepository<PlayerModel, Integer> {
+
+	PlayerModel findByPlayername(String playerName);
+}
